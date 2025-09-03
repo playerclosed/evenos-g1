@@ -1,0 +1,9 @@
+{
+  "name": "@evenos/app-oasis",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "vite", "build": "vite build", "lint":"echo ok", "typecheck":"tsc -p tsconfig.json --noEmit" },
+  "dependencies": { "@evenos/mentra-bridge": "workspace:*" },
+  "devDependencies": { "typescript": "^5.6.0", "vite": "^5.4.0" }
+}
