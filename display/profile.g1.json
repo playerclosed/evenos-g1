@@ -1,0 +1,7 @@
+{
+  "name": "Even G1 default",
+  "pixelRatio": 1,
+  "safeArea": { "top": 16, "bottom": 24, "left": 24, "right": 24 },
+  "scale": 0.9,
+  "fontBasePx": 18
+}
