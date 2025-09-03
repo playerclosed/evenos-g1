@@ -1,0 +1,18 @@
+:root{
+  --ui-scale: 1;
+  --safe-top: 16px; --safe-bottom: 24px; --safe-left: 24px; --safe-right: 24px;
+  /* Monochrom-Grün Palette */
+  --c-fg: #b6ff9c;
+  --c-fg2:#7fff6a;
+  --c-fg3:#2fb944;
+}
+html,body{ background: rgba(0,0,0,0); }
+body{ font-family: var(--font-pixel-2); letter-spacing: .5px; }
+canvas{ image-rendering: pixelated; }
+body::after{
+  content:""; pointer-events:none; position:fixed; inset:0;
+  background: repeating-linear-gradient(to bottom, rgba(255,255,255,.05) 0 1px, transparent 2px 4px);
+  mix-blend-mode: soft-light; opacity:.35;
+}
+.pixel-card{ backdrop-filter: blur(6px); background: rgba(0,0,0,.45);
+  color: var(--c-fg); border:1px solid rgba(255,255,255,.2); border-radius:12px; padding:8px 12px; }
